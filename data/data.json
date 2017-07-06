@@ -1,0 +1,131 @@
+{
+    "vertices": [{
+            "address": "Blk 1001 Bt Merah Lane 3 #01-45",
+            "registration_location_risk": {
+                "score": 15.84,
+                "level": "Low"
+            },
+            "phone": "+66 3243 994",
+            "registration_location_name": "Iceland",
+            "industry": null,
+            "name": "Clarence Haas",
+            "type": "person",
+            "resident_country": "Iceland",
+            "country_risk": {
+                "score": 15.84,
+                "level": "Low"
+            },
+            "title": "Mr",
+            "tax_reporting_country": "Mauritius",
+            "has_sanctions": false,
+            "registration_location_coordinates": "64.963051,-19.020835",
+            "tax_reporting_location_name": "Mauritius",
+            "id": "#69:1676",
+            "is_pep": false,
+            "tax_reporting_location_coordinates": "-20.348404,57.552152",
+            "labelV": "customer"
+        }, {
+            "address": "Blk 1001 Bt Merah Lane 3 #01-45",
+            "registration_location_risk": {
+                "score": 29.34,
+                "level": "Medium - Low"
+            },
+            "phone": "+99 4178 028",
+            "registration_location_name": "Italy",
+            "industry": null,
+            "name": "Gerard Rahimi",
+            "type": "person",
+            "resident_country": "Italy",
+            "country_risk": {
+                "score": 29.34,
+                "level": "Medium - Low"
+            },
+            "title": "Mr",
+            "tax_reporting_country": "Cocos Islands",
+            "has_sanctions": false,
+            "registration_location_coordinates": "41.87194,12.56738",
+            "tax_reporting_location_name": "Cocos Islands",
+            "id": "#78:1723",
+            "is_pep": false,
+            "tax_reporting_location_coordinates": "-12.164165,96.870956",
+            "labelV": "customer"
+        }, {
+            "address": "Blk 1001 Bt Merah Lane 3 #01-45",
+            "registration_location_risk": {
+                "score": 37.54,
+                "level": "Medium"
+            },
+            "phone": "+46 8595 210",
+            "registration_location_name": "Mexico",
+            "industry": null,
+            "name": "Wesley Quick",
+            "type": "person",
+            "resident_country": "Mexico",
+            "country_risk": {
+                "score": 37.54,
+                "level": "Medium"
+            },
+            "title": "Mrs",
+            "tax_reporting_country": "El Salvador",
+            "has_sanctions": false,
+            "registration_location_coordinates": "23.634501,-102.552784",
+            "tax_reporting_location_name": "El Salvador",
+            "id": "#70:1732",
+            "is_pep": false,
+            "tax_reporting_location_coordinates": "13.794185,-88.89653",
+            "labelV": "customer"
+        }, {
+            "party_1_location_name": "Trinidad and Tobago",
+            "party_1_location_coordinates": "10.691803,-61.222503",
+            "party_1_location_risk": {
+                "score": 34.23,
+                "level": "Medium"
+            },
+            "party_2_location_name": "Burkina Faso",
+            "party_2_location_coordinates": "12.238333,-1.561593",
+            "party_2_location_risk": {
+                "score": 31.1,
+                "level": "Medium"
+            },
+            "id": "#126:7014",
+            "labelV": "tx",
+            "name": "288.11 USD"
+        }, {
+            "party_1_location_name": "Saint Kitts and Nevis",
+            "party_1_location_coordinates": "17.357822,-62.782998",
+            "party_1_location_risk": {
+                "score": 99.0,
+                "level": "High"
+            },
+            "party_2_location_name": "Bosnia and Herzegovina",
+            "party_2_location_coordinates": "43.915886,17.679076",
+            "party_2_location_risk": {
+                "score": 57.69,
+                "level": "High"
+            },
+            "id": "#122:7458",
+            "labelV": "tx",
+            "name": "562.39 MYR"
+        }],
+    "edges": [{
+            "id": "#237:5348",
+            "labelE": "tx_party_2",
+            "to": "#126:7014",
+            "from": "#69:1676"
+        }, {
+            "id": "#202:5348",
+            "labelE": "tx_party_1",
+            "to": "#126:7014",
+            "from": "#78:1723"
+        }, {
+            "id": "#245:5791",
+            "labelE": "tx_party_2",
+            "to": "#122:7458",
+            "from": "#78:1723"
+        }, {
+            "id": "#210:5791",
+            "labelE": "tx_party_1",
+            "to": "#122:7458",
+            "from": "#70:1732"
+        }]
+}
